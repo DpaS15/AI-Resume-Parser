@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+db.sqlite3
+media/
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Docker
+*.pid
+*.tar
+docker/nginx/nginx.conf
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Backup files
+*.bak
+*~
